@@ -1,0 +1,109 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments  
+rag_system_env/
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+rag_system/logs/
+
+# Temporary files
+.DS_Store
+*.tmp
+*.temp
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Docker volumes
+docker/grafana/data/
+docker/prometheus/data/
+
+# Database files
+*.db
+*.sqlite3
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+.coverage
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmyp.json
+
+# Data files (large datasets)
+rag_system/data/documents/*
+!rag_system/data/documents/.gitkeep
+rag_system/data/embeddings/*
+!rag_system/data/embeddings/.gitkeep
+rag_system/data/evaluation/*
+!rag_system/data/evaluation/.gitkeep
+
+# Model files
+models/
+*.bin
+*.safetensors
+
+# Test files
+rag_system/test_upload.py
+rag_system/demo_grafana.py
+rag_system/test_prometheus_connection.sh
+
+# Documentation files (keep only main README)
+*.md
+!README.md
+!rag_system/README.md
+
+# Documentation temp files
+*.md~
+
+# OS generated files
+Thumbs.db
+
+# JSON detailed logs
+rag_system/logs/queries_detailed.json
+rag_system/app/__init__.py
+rag_system/app/api/__init__.py
+rag_system/app/core/__init__.py
+rag_system/app/api/routes/__init__.py
+rag_system/app/services/__init__.py
+rag_system/app/tests/__init__.py
+rag_system/app/utils/__init__.py
